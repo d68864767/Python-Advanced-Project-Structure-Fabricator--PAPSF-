@@ -1,0 +1,35 @@
+name:$templates/main.py.j2
+
+```python
+# main.py
+
+def main():
+    print("Hello, world!")
+
+if __name__ == "__main__":
+    main()
+```
+
+name:$templates/utils.py.j2
+
+```python
+# utils.py
+
+def helper_function():
+    pass
+```
+
+name:$templates/README.md.j2
+
+```markdown
+# {{ project_name }}
+
+This is the README for {{ project_name }}.
+```
+
+name:$templates/data.csv.j2
+
+```csv
+id,name
+1,example
+```
